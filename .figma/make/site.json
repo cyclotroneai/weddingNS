@@ -1,0 +1,10 @@
+{
+  "description": "Creates personalized, professional wedding landing pages featuring custom images, background music, and videos to showcase special moments beautifully.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
