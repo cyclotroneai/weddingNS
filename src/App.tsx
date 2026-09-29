@@ -460,12 +460,12 @@ function Timeline() {
   const events = [
     {
       title: "Nikah Ceremony",
-      time: "To be announced",
+      time: "11 AM",
       desc: "The solemnisation of our marriage in the presence of loved ones.",
     },
     {
       title: "Reception",
-      time: "To be announced",
+      time: "4:00-7:00 PM",
       desc: "An evening of celebration, dining and warm togetherness.",
     },
   ];
