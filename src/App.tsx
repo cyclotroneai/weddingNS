@@ -602,7 +602,8 @@ function Footer() {
       <p className="mt-2 text-xs uppercase tracking-[0.25em] text-charcoal-soft">
         12 November 2026
       </p>
-      <p className="mt-6 text-[0.7rem] italic text-champagne">Made with love</p>
+      <p className="mt-6 text-[0.7rem] italic text-champagne">With best compliments from
+Fathima Amna, Jannah Fathima, Muhammed Suhail, Raha Mariyam</p>
     </footer>
   );
 }
