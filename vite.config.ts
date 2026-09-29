@@ -1,17 +1,13 @@
 import { defineConfig, type HtmlTagDescriptor, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-import path from 'node:path'
+ import tailwindcss from '@tailwindcss/vite'
+   import react from '@vitejs/plugin-react'
 
-import siteConfiguration from './.figma/make/site.json'
+   export default defineConfig({
+     base: '/weddingNS/',
+     plugins: [react(), tailwindcss()],
+   })
 
-// Vite config — https://vitejs.dev/config/
-export default defineConfig(({ mode }) => {
-  // .figma/make/deploy-preview passes `--mode development` for cached-preview builds.
-  const emitSourcemaps = mode === 'development'
-
-  return {
-    base: '/weddingNS/',
     build: {
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
